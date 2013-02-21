@@ -1,21 +1,16 @@
-# Template Puppet Module for Boxen
+# TotalTerminal Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Install [TotalTerminal](http://totalterminal.binaryage.com/).
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include totalterminal
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
 
 ## Development
 
