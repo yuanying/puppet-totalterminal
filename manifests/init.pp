@@ -6,6 +6,6 @@
 class totalterminal {
   package { 'TotalTerminal':
     provider => 'pkgdmg',
-    source   => 'http://downloads.binaryage.com/TotalTerminal-1.3.dmg'
+    source   => 'http://downloads.binaryage.com/TotalTerminal-1.4.6.dmg'
   }
 }
